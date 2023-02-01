@@ -1,0 +1,141 @@
+
+h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  color: #ffffff;
+}
+
+input {
+  box-sizing: border-box;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  width: 800px;
+  background: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  position: relative;
+  
+}
+
+.lupa{
+  position: absolute;
+  width: 103px;
+}
+
+.blocks {
+  width: 760px;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 112px;
+  margin-bottom: 47px;
+  text-align: left;
+}
+
+.day{ 
+  background-image: url(./gif/day-bg-_1_.gif);
+}
+
+.night{
+  background-image: url(./gif/night-bg.gif);
+}
+
+.block-in{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 71px;
+  width: 662px;
+
+}
+
+.left-side{
+margin-top: 39px;
+}
+
+
+.right-side{
+margin-top: 30px;
+}
+
+
+.name{
+  width: 188px;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 61px;
+color: #FFFFFF;
+}
+
+.region{
+  width: 249px;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+color: #FFFFFF;
+margin-top: 9px;
+}
+
+
+.localtime{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
+margin-top: 107px;
+margin-bottom: 34px;
+}
+
+.icon{
+  width: 83px;
+}
+
+.temp-c{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+color: #FFFFFF;
+margin-top: 17px;
+}
+
+.temp-f{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 36px;
+color: #FFFFFF;
+margin-top: 91px;
+}
+
+p{
+  line-height: 20px;
+  text-decoration: none;
+  color: red;
+}
+
+input::placeholder{
+ color: #FFFFFF;
+}
